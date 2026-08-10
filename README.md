@@ -2,7 +2,7 @@
 
 Awesome Akash is a curated list of awesome resources people can use to familiarize themselves with [Akash](https://akash.network) and includes examples of several applications they can deploy on the platform. Please submit a pull request if you know any resources that might be helpful to other developers.
 
-Instructions on how to deploy the SDL files in this repository can be found in the [deployments overview](https://akash.network/docs/deployments/overview/).
+Instructions on how to deploy the SDL files in this repository can be found in the [deployments overview](https://akash.network/docs/developers/deployment/#overview).
 
 Join our [Discord](https://discord.akash.network) if you have questions or concerns. Our team is always eager to hear from you.
 Also, follow [@akashnet](https://x.com/akashnet) to stay in the loop with updates and announcements.
@@ -78,17 +78,25 @@ To add a new template/resource:
 - [ChatChat](chatchat)
 - [Claude Code](claude-code)
 - [Daila](daila)
+- [Dify](dify)
+- [Eliza AI Agent](Elizaos-ai_Agents)
 - [Faster Whisper](faster-whisper-cpu)
 - [Flowise](flowise)
-- [Eliza AI Agent](Elizaos-ai_Agents)
+- [Hermes Agent](Hermes-Agent)
 - [InvokeAI](invoke-ai-cpu)
+- [Langfuse](langfuse)
 - [Langflow](langflow)
+- [LiteLLM Proxy](litellm)
 - [Morpheus Lumerin Node](morpheus-lumerin-node)
 - [Ollama](ollama-cpu)
 - [OpenClaw](openclaw)
 - [Open WebUI](open-webui-cpu)
+- [Paperclip](paperclip)
+- [Piper TTS](Piper-TTS)
 - [PrivateGPT](privategpt-cpu)
+- [Phoenix](phoenix)
 - [Serge](serge-cpu)
+- [Space Agent AI](Space-Agent)
 - [Stable Diffusion](stable-diffusion-ui)
 - [Terminal GPT](tgpt)
 - [Venice-ElizaOS](Venice-ElizaOS)
@@ -101,6 +109,7 @@ To add a new template/resource:
 
 - [Ace Music AI](Ace-Music-AI)
 - [Autoresearch](autoresearch)
+- [Autoresearch at Home](autoresearch-at-home)
 - [AI-Image-App](AI-Image-App)
 - [Akash-AI-Music-Generator](akash-music-ai-generator)
 - [AUTOMATIC1111](AUTOMATIC1111)
@@ -108,6 +117,7 @@ To add a new template/resource:
 - [BERT](bert)
 - [BERT Sentiment Analysis](bert-sentiment-analysis)
 - [ChatGLM-6B](ChatGLM-6B)
+- [Chatterbox](Chatterbox)
 - [ComfyUI](comfyui)
 - [DeepSeek-Janus](DeepSeek-Janus)
 - [DeepSeek-R1](DeepSeek-R1)
@@ -127,12 +137,14 @@ To add a new template/resource:
 - [Flan-T5 XXL](flan-t5-xxl)
 - [FLock Validator](FLock-validator)
 - [FLock-Training-Node](FLock-training-node)
+- [Gemma 3 4B](gemma3-4b)
 - [Gensyn RL Swarm](gensyn-rl-swarm)
 - [GPT-Neo](gpt-neo)
 - [GPUStack](gpustack)
 - [GPUStack Worker](gpustack-worker)
 - [Grok](grok)
 - [Hermes-4-405B-FP8](Hermes-4-405B-FP8)
+- [Insanely-Fast-Whisper-AI-CLI+API](Insanely-Fast-Whisper-AI-CLI+API)
 - [InvokeAI](invoke-ai-gpu)
 - [Kimi-K2-Thinking](Kimi-K2-Thinking)
 - [Llama-2-70B](Llama-2-70B)
@@ -153,9 +165,11 @@ To add a new template/resource:
 - [Llama-4-Scout-17B-16E-Instruct](Llama-4-Scout-17B-16E-Instruct)
 - [Mistral-7B](Mistral-7B)
 - [Ollama](ollama-gpu)
+- [Ollama TEE](ollama-tee)
 - [Open GPT](open-gpt)
 - [Open WebUI](open-webui-gpu)
 - [OpenAI gpt-oss-120b](openai-gpt-oss-120b)
+- [Parakeet](Parakeet)
 - [Pluralis-Node](Pluralis-Node)
 - [PrivateGPT](privategpt-gpu)
 - [Qwen3-235B-A22B-FP8](Qwen3-235B-A22B-FP8)
@@ -165,7 +179,11 @@ To add a new template/resource:
 - [Qwen3-235B-A22B-Thinking-2507-FP8](Qwen3-235B-A22B-Thinking-2507-FP8)
 - [Qwen3-Coder-480B-A35B-Instruct](Qwen3-Coder-480B-A35B-Instruct)
 - [Qwen3-Next-80B-A3B-Instruct](Qwen3-Next-80B-A3B-Instruct)
+- [Qwen3.5-27B](Qwen3.5-27B)
+- [Qwen3.5-35B-A3B](Qwen3.5-35B-A3B)
+- [Qwen3.5-9B](Qwen3.5-9B)
 - [Qwen-QwQ-32B](QwQ-32B)
+- [Razer-AIKit](Razer-AIKit)
 - [RedPajama-INCITE-7B-Instruct](redpajama-incite-7b-instruct)
 - [Semantra](semantra)
 - [Serge](serge-gpu)
@@ -202,15 +220,16 @@ To add a new template/resource:
 - [Status](status)
 
 ### Machine Learning
-
+- [Akash Trainer](akash-trainer)
+- [Doccano](doccano)
 - [Gradio](gradio-demo)
-- [Ray Cluster](ray)
+- [Handwritten Digits Recognition Application](tensorflow-webapp-mnist)
 - [Jupyter Notebook](jupyter)
 - [Jupyter Notebook with ezkl](tensorflow-jupyter-ezkl)
 - [Jupyter Notebook with Python Kernel](tensorflow-jupyter-mnist)
+- [MLflow](mlflow)
+- [Ray Cluster](ray)
 - [TensorFlow Serving MNIST CNN Model](tensorflow-serving-mnist)
-- [Handwritten Digits Recognition Application](tensorflow-webapp-mnist)
-- [Doccano](doccano)
 
 ### CI/CD, DevOps
 
@@ -243,6 +262,7 @@ To add a new template/resource:
 - [neo4j](neo4j)
 - [pgAdmin](pgadmin4)
 - [postgresSQL](postgres)
+- [Postgres S3 Backup](postgres-s3-backup)
 - [Qdrant](qdrant)
 - [redis](redis)
 - [Supabase](supabase)
@@ -294,6 +314,7 @@ Awesome DeFi apps you can deploy on Akash
 - [Handshake](handshake)
 - [Injective](injective)
 - [Kadena](Kadena)
+- [Logos Blockchain Node](logos-blockchain-node)
 - [Metal Validator](metal-validator)
 - [Near Node](near)
 - [POKT Network](pokt-network)
@@ -307,7 +328,9 @@ Awesome DeFi apps you can deploy on Akash
 
 ### Business
 
+- [Baserow](baserow)
 - [Odoo](odoo)
+- [Open-Project](Open-Project)
 - [RAIR-Dapp](RAIR-Dapp)
 - [n8n](n8n)
 
@@ -408,6 +431,7 @@ Awesome DeFi apps you can deploy on Akash
 
 ### Decentralized Storage
 
+- [Akave](akave)
 - [Codex](codex)
 - [IPFS](ipfs)
 
