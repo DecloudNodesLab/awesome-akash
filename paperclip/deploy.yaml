@@ -2,22 +2,24 @@
 version: "2.0"
 services:
   server:
-    image: ghcr.io/paperclipai/paperclip:sha-9ac2431 # https://github.com/paperclipai/paperclip/pkgs/container/paperclip
+    image: ghcr.io/paperclipai/paperclip:sha-6a4e2e1 # https://github.com/paperclipai/paperclip/pkgs/container/paperclip
     expose:
       - port: 3100
-        as: 3100
+        as: 80
         to:
-          - global: true
+        - global: true
     env:
       - DATABASE_URL=postgresql://paperclip:paperclip@db:5432/paperclip
       - PORT=3100
       - SERVE_UI=true
       - PAPERCLIP_DEPLOYMENT_MODE=authenticated
       - PAPERCLIP_DEPLOYMENT_EXPOSURE=private
-      - PAPERCLIP_PUBLIC_URL=http://provider.akash-palmito.org/ # Provider URL
-      - BETTER_AUTH_SECRET=0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef
-      - OPENAI_API_KEY=your_openai_api_key # Codex
-      - ANTHROPIC_API_KEY=your_anthropic_api_key # Claude
+      - PAPERCLIP_PUBLIC_URL=http://provider.akash.com # Provider URL
+      - BETTER_AUTH_SECRET=3e3d4cfd927be0b953e28879b76a811359f8cba18cc40f7f5ae48d6466203cb9
+      - ANTHROPIC_BASE_URL=https://api.akashml.com/anthropic
+      - ANTHROPIC_AUTH_TOKEN=akml-...
+      - ANTHROPIC_MODEL=openai/gpt-oss-120b
+      - API_TIMEOUT_MS=3000000
     params:
       storage:
         paperclip-data:
