@@ -75,6 +75,8 @@ To add a new template/resource:
 - [BabyAGI-UI](babyagi-ui)
 - [Bark small](bark-small)
 - [Botpress](botpress)
+- [Buzz Agent](Buzz-Agent)
+- [Buzz OpenCode Agent](Buzz-OpenCode-Agent)
 - [ChatChat](chatchat)
 - [Claude Code](claude-code)
 - [Daila](daila)
@@ -216,6 +218,7 @@ To add a new template/resource:
 
 ### Chat
 
+- [Buzz Relayer](Buzz-Relayer)
 - [Mattermost](mattermost)
 - [Status](status)
 
@@ -323,7 +326,7 @@ Awesome DeFi apps you can deploy on Akash
 - [Starknet Node by Juno](juno)
 - [Substrate Node](substrate-node)
 - [Witness Chain Watchtower](witnesschain-watchtower)
-- [Zcash - Zcashd](zcash-zcashd)
+- [Zcash - Zakura](zcash-zakura)
 - [Zcash - Zebra](zcash-zebra)
 
 ### Business
